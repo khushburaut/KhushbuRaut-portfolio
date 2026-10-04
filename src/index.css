@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #faf9f6;
+  }
+  
+  body {
+    @apply bg-canvas text-black overflow-x-hidden antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  /* Custom Light Editorial Scrollbar */
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #faf9f6;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 9999px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+  }
+}
+
+@layer components {
+  /* Editorial card utility */
+  .editorial-card {
+    @apply bg-white border border-black/[0.06] rounded-2xl shadow-editorial transition-all duration-300;
+  }
+
+  .editorial-card-hover {
+    @apply hover:border-brand-500/30 hover:shadow-editorial-hover hover:-translate-y-1;
+  }
+
+  /* Editorial Pill Badge */
+  .editorial-badge {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-semibold tracking-wide bg-brand-50 text-brand-600 border border-brand-200/70;
+  }
+
+  .editorial-badge-dark {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-semibold tracking-wide bg-ink-900 text-white border border-ink-800;
+  }
+
+  /* Editorial Section Label */
+  .editorial-section-tag {
+    @apply inline-flex items-center gap-2 text-sm font-bold uppercase tracking-[0.2em] text-brand-600 mb-3;
+  }
+
+  /* Text highlight */
+  .text-editorial-accent {
+    @apply text-brand-crimson;
+  }
+
+  /* Outline text for giant editorial watermarks */
+  .watermark-text {
+    -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.045);
+    color: transparent;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  /* Form controls styled with clean modern light aesthetics */
+  .editorial-input {
+    @apply w-full bg-white border border-ink-200/90 rounded-xl px-4 py-3 text-black placeholder-ink-400 focus:outline-none focus:ring-4 focus:ring-brand-500/10 focus:border-brand-500 transition-all duration-200 shadow-sm text-base;
+  }
+}
+
+/* Animations */
+.delay-100 {
+  animation-delay: 100ms;
+}
+.delay-200 {
+  animation-delay: 200ms;
+}
+.delay-300 {
+  animation-delay: 300ms;
+}
+.delay-500 {
+  animation-delay: 500ms;
+}
