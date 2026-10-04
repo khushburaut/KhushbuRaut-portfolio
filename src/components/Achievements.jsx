@@ -138,30 +138,7 @@ export default function Achievements() {
                 </a>
               </div>
 
-              {/* ================= NPTEL ================= */}
-              <div className="editorial-card p-6 sm:p-7 rounded-3xl bg-white border border-black/[0.07] hover:border-brand-300 hover:shadow-editorial-hover transition-all duration-300 flex flex-col justify-between group">
-                <div>
-                  <span className="editorial-badge text-xs mb-3 inline-flex">
-                    Certification
-                  </span>
-                  <h4 className="text-base font-bold text-ink-950 font-heading mb-2 leading-snug group-hover:text-brand-crimson transition-colors duration-200">
-                    NPTEL Soft Skills Certificate
-                  </h4>
-                  <p className="text-sm text-black leading-relaxed mb-5 font-normal">
-                    NPTEL certification for successful completion of the Soft Skills course.
-                  </p>
-                </div>
-                <a
-                  href="/NPTEL-Soft-Skills-Certificate.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm font-bold uppercase tracking-wider text-brand-crimson hover:text-brand-800 flex items-center gap-1.5 mt-2 w-fit group/btn"
-                >
-                  View Certificate
-                  <ArrowUpRight className="h-3.5 w-3.5 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform duration-200" />
-                </a>
-              </div>
-
+              
               {/* ================= EDUSKILL ================= */}
               <div className="editorial-card p-6 sm:p-7 rounded-3xl bg-white border border-black/[0.07] hover:border-brand-300 hover:shadow-editorial-hover transition-all duration-300 flex flex-col justify-between group">
                 <div>

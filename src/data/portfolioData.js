@@ -162,12 +162,6 @@ export const portfolioData = {
         link: "/Eduskill-Certificate.pdf"
       },
       {
-        title: "NPTEL Soft Skill Development",
-        description: "Certified course covering professional communication, active listening, and workplace dynamics.",
-        badge: "NPTEL",
-        link: "/NPTEL-Soft-Skills-Certificate.pdf"
-      },
-      {
         title: "INFOSYS Interactive Skills & Time Management",
         description: "Certified credentials for interactive team skills, scheduling, and structured management models.",
         badge: "Infosys",
