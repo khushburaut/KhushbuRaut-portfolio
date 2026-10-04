@@ -10,15 +10,6 @@ The portfolio features a clean editorial-inspired design with responsive layouts
 
 🔗 **[View Live Portfolio](https://khushbu-raut-portfolio.vercel.app)**
 
----
-
-## 🎥 Project Demo
-
-🎬 **Portfolio walkthrough video:**  
-
-> Replace the placeholder above with your YouTube, Google Drive, or other video link.
-
----
 
 ## 📌 About the Project
 
