@@ -15,7 +15,6 @@ The portfolio features a clean editorial-inspired design with responsive layouts
 ## 🎥 Project Demo
 
 🎬 **Portfolio walkthrough video:**  
-`[Portfolio demo video]`
 
 > Replace the placeholder above with your YouTube, Google Drive, or other video link.
 
